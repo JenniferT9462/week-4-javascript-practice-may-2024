@@ -16,7 +16,7 @@
 
   <h1>Functions</h1>
 
-  <p>Functions should be familar to you from math. JavaScript has functions, too but they have a different syntax.</p>
+  <p>Functions should be familiar to you from math. JavaScript has functions, too but they have a different syntax.</p>
 
   <h3>Function from Your Math Class</h3>
 
@@ -33,7 +33,7 @@
     is the value of the fuction at <code>x=20</code></p>
 
   <p>The x axis and y axis could represent many things. In this case, we can say x is days and y is cash. If we start
-    with 5 dolars and we sell one ice cream cone a day at $0.25 a piece, our total cash will be $15 after 40 days.</p>
+    with 5 dollars and we sell one ice cream cone a day at $0.25 a piece, our total cash will be $15 after 40 days.</p>
 
   <p>A function is a way to say all of this in one line.</p>
 
@@ -92,6 +92,8 @@
     For x = 20...
     f(x) =
     <script>
+      y3 = f(20);
+      document.write(y3);
     </script>
   </p>
   <h3>Example 2</h3>
@@ -107,15 +109,15 @@
   </div>
   <p>Now at 5 days, g(x) will be </p>
   <pre>
-    g(x) = 2 * 5 + 5
-    g(x) = 10 + 5
-    g(x) = 15
+    g(x) = 5 * 5 + 5
+    g(x) = 25 + 5
+    g(x) = 30
   </pre>
   <p>Now at 10 days, g(x) will be </p>
   <pre>
-    g(x) = 2 * 10 + 5
-    g(x) = 20 + 5
-    g(x) = 25
+    g(x) = 10 * 5 + 5
+    g(x) = 50 + 5
+    g(x) = 55
   </pre>
   <h2>You Try it!</h2>
   <script>
@@ -126,7 +128,7 @@
     let z5;
 
     function g(x) {
-      return x * 2 + 5;
+      return x * 5 + 5;
     }
   </script>
   <p>Try to find the values of g(x) for 5, 10, 15, 21, and 1001</p>
@@ -139,7 +141,7 @@
     </script>
   </p>
   <p>
-    For x = 5...
+    For x = 10...
     g(x) =
     <script>
       z2 = g(10);
@@ -151,49 +153,205 @@
     For x = 15...
     g(x) =
     <script>
-      z3 = g();
-      document.write();
+      z3 = g(15);
+      document.write(z3);
     </script>
   </p>
   <h4> TODO: You try this one! </h4>
   <p>
     For x = 21...
-    g(x) = ?
+    g(x) = 
     <script>
-
+      z4 = g(21);
+      document.write(z4);
     </script>
   </p>
   <h4> TODO: You try this one! </h4>
   <p>
     For x = 1001...
-    g(x) = ?
+    g(x) = 
     <script>
+      z5 = g(1001);
+      document.write(z5);
 
     </script>
   </p>
 
   <h3>You Try it!</h3>
   <p> If you've gotten this far, try and do one better! The ice cream shop is lowering it's prices to $1.50 a cone.
-    Write a function that will calculate the cash that the shop has earned after x days. Then caclulate that for 5, 10,
+    Write a function that will calculate the cash that the shop has earned after x days. Then calculate that for 5, 10,
     15, 21 and 1001 days.</p>
+    <p>h(x) = x * 1.50 + 5;</p>
+    <script>
+      let h1;
+      let h2;
+      let h3;
+      let h4;
+      let h5;
+  
+      function h(x) {
+        return x * 1.50 + 5;
+      }
+    </script>
+    <p>
+      For x = 5...
+      h(x) = 
+      <script>
+        h1 = h(5);
+        document.write(h1);
+      </script>
+    </p>
+    <p>
+      For x = 10...
+      h(x) = 
+      <script>
+        h2 = h(10);
+        document.write(h2);
+      </script>
+    </p>
+    <p>
+      For x = 15...
+      h(x) = 
+      <script>
+        h3 = h(15);
+        document.write(h3);
+      </script>
+    </p>
+    <p>
+      For x = 21...
+      h(x) = 
+      <script>
+        h4 = h(21);
+        document.write(h4);
+      </script>
+    </p>
+    <p>
+      For x = 1001...
+      h(x) = 
+      <script>
+        h5 = h(1001);
+        document.write(h5);
+      </script>
+    </p>
 
   <h4>TODO: You try this one!</h4>
   <p> In the space bellow, write the html tags and javascript code to make your functions. Write the code to write the
     results of the functions to the page. </p>
+    <p>After 5 days at the price of 1.50 we have $12.50. We want to raise prices again to $8.50. So, we will start at $12.50 this time.</p>
+    <p>j(x) = x * 8.50 + 12.50</p>
+    <script>
+      let j1;
+      let j2;
+      let j3;
+      let j4;
+      let j5;
+
+      function j(x) {
+        return x * 8.50 + 12.50;
+      }
+    </script>
+    <p>
+      For x = 5...
+      j(x) = 
+      <script>
+        j1 = j(5);
+        document.write(j1);
+      </script>
+    </p>
+    <p>
+      For x = 10...
+      j(x) = 
+      <script>
+        j2 = j(10);
+        document.write(j2);
+      </script>
+    </p>
+    <p>
+      For x = 15...
+      j(x) = 
+      <script>
+        j3 = j(15);
+        document.write(j3);
+      </script>
+    </p>
+    <p>
+      For x = 21...
+      j(x) = 
+      <script>
+        j4 = j(21);
+        document.write(j4);
+      </script>
+    </p>
+    <p>
+      For x = 1001...
+      j(x) = 
+      <script>
+        j5 = j(1001);
+        document.write(j5);
+      </script>
+    </p>
 
 
 
-
-
-
-
-
-
-
-
-  <h4>Bonus:</h4>
+<h4>Bonus:</h4>
   <p>Try out some more functions for different business senarios. As an extra bonus, you might try two variables! For
     example f(a,b) = a*2 + b. What could such a function represent in the business scenario?</p>
+    <p>We want to find the total sales based on a fixed price($9.99) and with changing days and items sold.</p>
+    <p>Total sales = (items sold*price) * days</p>
+    <p>k(a,b) = (a*9.99)*b</p>
+    <script>
+      let k1;
+      let k2;
+      let k3;
+      let k4;
+      let k5;
+
+      function k(a,b){
+        return (a*9.99)*b
+      }
+    </script>
+    <p>
+      For 20 items sold and 5 days...
+      k(a,b) = 
+      <script>
+        k1 = k(20,5);
+        document.write(k1);
+      </script>
+    </p>
+    <p>
+      For 25 items sold and 10 days...
+      k(a,b) = 
+      <script>
+        k2 = k(25,10);
+        document.write(k2);
+      </script>
+    </p>
+    <p>
+      For 30 items sold and 15 days...
+      k(a,b) = 
+      <script>
+        k3 = k(30,15);
+        document.write(k3);
+      </script>
+    </p>
+    <p>
+      For 50 items sold and 21 days...
+      k(a,b) = 
+      <script>
+        k4 = k(50,21);
+        document.write(k4);
+      </script>
+    </p>
+    <p>
+      For 100 items sold and 1001 days...
+      k(a,b) = 
+      <script>
+        k5 = k(100,1001);
+        document.write(k5);
+      </script>
+    </p>
 </body>
+
+  
 
 </html>
